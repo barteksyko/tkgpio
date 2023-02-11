@@ -113,7 +113,7 @@ def tkgpio_main():
                 lcd2.clear()
                 lcd2.message("TO2 Hz: %.2f" % (0))
 
-        elif checker_list[4 == "true"] and not switch_TO1.is_pressed:
+        elif checker_list[4] == "true" and not switch_TO1.is_pressed:
             work_led_TO1.off()
             work_led_TO2.off()
             work_led_ODZ.off()
